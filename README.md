@@ -3,6 +3,37 @@
 A simple yet powerful **Machine Learning** project that predicts the species of Iris flowers — *Setosa, Versicolor,* or *Virginica* — based on their petal and sepal measurements.  
 Built using **Python**, **Scikit-Learn**, and **Jupyter Notebook**.
 
+## Output(as it would apper in Terminal);
+First 5 rows of dataset:
+  sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)  target
+0                5.1               3.5                1.4               0.2       0
+1                4.9               3.0                1.4               0.2       0
+2                4.7               3.2                1.3               0.2       0
+3                4.6               3.1                1.5               0.2       0
+4                5.0               3.6                1.4               0.2       0
+
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0  7  0]
+ [ 0  0  3]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00         7
+           2       1.00      1.00      1.00         3
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+
+Model Accuracy: 100.00%
+
+Predicted Iris Class: setosa
+
 
 ## 📘 Project Overview
 
